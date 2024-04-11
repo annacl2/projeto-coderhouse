@@ -54,7 +54,7 @@ body {
     font-weight: 200;
     font-style: normal;
     font-size: 25px;
-    margin-top: 120px;
+    margin-top: 225px;
     margin-left: 50px;
     width: 40%;
 }
@@ -79,10 +79,10 @@ h1{
 h2{
     color: white;
     font-family: "Fira Sans", sans-serif;
-    font-weight: inherit;
-    font-style: oblique;
-    margin-top: 80px;
-    text-align: center;
+    font-weight: bold;
+    font-size:xx-large;
+    position: absolute;
+    bottom: -100px; left: 700px;
 }
 
 h3{
@@ -175,14 +175,29 @@ section fieldset {
     border: solid 2px black;
 } 
 
+.faleConosco {
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 50px;
+    margin-left: 700px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
 fieldset{
     margin-top: 50px;
-    margin-left: 450px;
+    margin-left: 520px;
     margin-right: 450px;
+    border: solid 2px white;
+    border-radius: 10px;
+    font-size: 30px;
 }
 input {
     background-color: black;
     border-radius: 10px;
+    font-size: 20px;
 }
 
 textarea {
@@ -194,10 +209,20 @@ input:focus {
     background-color: darkgray;
 }
 
+.button {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: "Fira Sans", sans-serif;
+    cursor: pointer;
+}
+
 .footer {
     text-align: justify;
     background-color: white;
-    margin-top: 280px;
+    margin-top: 950px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -222,11 +247,28 @@ input:focus {
     text-decoration: none;
 }
 
+.footer__p {
+    color: black;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    height: 80px;
+    position: absolute;
+    bottom: -900px; right: 450px;
+}
+
+.footer__p::selection {
+
+    color:black;
+    background: white;
+}
+
 #icone1{
     width: 60px;
     height: 60px;
     position: absolute;
-    bottom: -80px; right: 210px;
+    bottom: -840px; right: 210px;
     display: inline-block;
 }
 
@@ -234,7 +276,7 @@ input:focus {
     width: 60px;
     height: 60px;
     position: absolute;
-    bottom: -80px; right: 131px;
+    bottom: -840px; right: 131px;
     display: inline-block;
 }
 
@@ -242,6 +284,28 @@ input:focus {
     width: 60px;
     height: 60px;
     position: absolute;
-    bottom: -80px; right: 60px;
+    bottom: -840px; right: 60px;
     display: inline-block;
+}
+
+#ep1 {
+    width: 320px;
+    height: 550px;
+    margin-left: 100px;
+    position: absolute;
+    top: 820px; left: 320px;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#ep2 {
+    width: 320px;
+    height: 550px;
+    margin-left: 100px;
+    position: absolute;
+    top: 820px; left: 690px;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
 }
